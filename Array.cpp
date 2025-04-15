@@ -13,3 +13,9 @@ void input() {
     }
 }
 
+//Create function to merge two sorted arrays
+void mergesort (int low, int high) {//step 1
+    if (low >= high){
+        return; //1.a
+    }    
+       
