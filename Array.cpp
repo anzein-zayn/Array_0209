@@ -59,4 +59,13 @@ for (int x = low; x <= high;x++) {
 int main() {
     input(); // input the array
     mergesort (0,n-1);// call merge sort on the whole array
+
+    //print the final sorted array
+    cout << "Sorted Array: ";
+    for (int i = 0; i < n;i++){
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
 }
