@@ -46,5 +46,17 @@ while (j <= high) {//step 4.e
     k++;
 }
 
-while (i <=
-       
+while (i <=mid) {//step.f
+    B[k] = arr[i];
+    i++;
+    k++;
+}
+//step 5
+for (int x = low; x <= high;x++) {
+    arr[x] = B[x];//step 5.a
+}
+}
+int main() {
+    input(); // input the array
+    mergesort (0,n-1);// call merge sort on the whole array
+}
